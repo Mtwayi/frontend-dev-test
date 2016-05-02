@@ -1,0 +1,33 @@
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+	font-family: $font-family--primary, $font-family--secondary !important;
+	font-size: $base__font-size;
+	line-height: $base__line;
+    background: url("../image-assets/page-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+    /*@include background-image('pattern');*/
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+	text-align: left;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+

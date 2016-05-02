@@ -1,0 +1,57 @@
+// ==========================================================================
+// Global Config
+// ==========================================================================
+
+
+// Font
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100,900');
+
+
+// Font Stacks
+$font-family--primary    : Roboto;
+$font-family--secondary  : Georgia;
+
+// Font Weights
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// Text
+$base__font-size 		: 16px;
+$base__line      		: 18px;
+$base__ten				: 110px;
+
+// Border radius
+$br--default    : .4em;
+$br--round      : 1%;
+
+// Breakpoints
+
+// Portrait
+
+$brkpoint-base			: 1px;
+$brkpoint-iphone4 		: 320px;
+$brkpoint-iphone6p		: 414px;
+$brkpoint-phone 		: 480px;
+$brkpoint-tablet		: 767px;
+$brkpoint-desktop-sm 	: 991px;
+$brkpoint-desktop		: 1024px;//992px;
+$brkpoint-large			: 1200px;
+$brkpoint-large-max		: 1199px;
+$brkpoint-xlarge		: 1400px;
+
+// Landscape
+
+$brkpoint-iphone_ls		: 480px;
+$brkpoint-iphone6p_ls	: 736px;	
+$brkpoint-tablet_ls		: 1024px;
+
+// Descriptive Base Colors
+
+$color_one: #ebeff0;
+$color_two: #97acba;
+$underline: #9edab6;
+$color_green: #91eebc;
+$color_blue: #4491b5;
